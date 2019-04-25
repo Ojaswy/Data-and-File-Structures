@@ -33,7 +33,7 @@ void insertElement()
         else
         {
                 parentPTR=NULL;
-                nodePTR=tree;
+                nodePTR=tree; 
                 while(nodePTR!=NULL)
                 {
                        parentPTR=nodePTR;
