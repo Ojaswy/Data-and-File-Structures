@@ -1,3 +1,3 @@
-# Implementation of the ```Queue``` Data Structure
+# Implementation of the ```Queue Data Structure```
 
-Implementing the Queue Data structure along with a few functionalities
+Implementing the Queue Data structure along with a few functionalities.
