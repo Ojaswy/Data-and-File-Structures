@@ -1,9 +1,7 @@
 #include <stdlib.h>
-
 #include <stdio.h>
 
 #define MAXELEMENTS 50
-
 #define TRUE 1
 
 #define FALSE 0
@@ -106,27 +104,15 @@ int qdelete(QUEUE *qptr)
 }
 
 void qinsert(QUEUE *qptr , int x)
-
 {
-
 /* make room for new element */
-
 	printf("\n %d is inserted \n",x);
-
 	qptr->rear=(qptr->rear+1)%(MAXELEMENTS);
-
 	if (qptr->rear == qptr->front) {
-
 		printf("Queue overflow");
-
 		qptr->rear--;
-
-		return;
-
+        	return;
 	}
-
 	qptr->items[qptr->rear] = x;
-
 	return;
-
 }
