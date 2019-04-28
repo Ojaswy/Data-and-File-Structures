@@ -34,7 +34,7 @@ void print_reverse(node ** queue)
             printf("<-");
 
         }
-        printf("%d",(*queue)->data);
+        printf("%d",(*queue)->data); 
     }
 }
 
